@@ -1,0 +1,4 @@
+# Created at 2021-06-21T14:11:35.117
+Boot Manifest-JAR contains absolute paths in classpath 'E:\eclipse-workspace\HybridPOM-UiAutomatiom\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

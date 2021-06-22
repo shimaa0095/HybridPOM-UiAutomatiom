@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-22T22:23:38 EET" name="Default suite" finished-at="2021-06-22T22:24:14 EET" duration-ms="35793">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.TestNGRunner@55183b20]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-22T22:23:38 EET" name="Default test" finished-at="2021-06-22T22:24:14 EET" duration-ms="35793">
+      <class name="Tests.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Tests.TestNGRunner@55183b20]" started-at="2021-06-22T22:23:38 EET" name="setUpClass" finished-at="2021-06-22T22:23:39 EET" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.TestNGRunner@55183b20]" started-at="2021-06-22T22:23:39 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-22T22:24:09 EET" duration-ms="29698" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Doing Search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Google Search feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<142.0> but was:<91.0>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<142.0> but was:<91.0>
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.failNotEquals(Assert.java:835)
+at org.junit.Assert.assertEquals(Assert.java:120)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at DiffinitionStepsOfPages.GoogleHomePageSteps.user_validates_if_the_number_of_results_pages_links_is_equal(GoogleHomePageSteps.java:64)
+at ✽.user validates if the number of results pages links is equal(file:///E:/eclipse-workspace/HybridPOM-UiAutomatiom/src/test/resources/PageFeatures/GoogleHomePageFeatures.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Tests.TestNGRunner@55183b20]" started-at="2021-06-22T22:24:09 EET" name="tearDownClass" finished-at="2021-06-22T22:24:14 EET" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Tests.TestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
